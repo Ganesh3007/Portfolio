@@ -44,9 +44,9 @@ function Home2() {
                   <br />
                   <span>{"<ul>"}</span>
                   <br />
-                  <span>{"<li>Who I Am: {props.firstName}</li>"}</span>
+                  <span>{"<li>Who I Am: {props.whoIAm}</li>"}</span>
                   <br />
-                  <span>{"<li>What I Can Do: {props.lastName}</li>"}</span>
+                  <span>{"<li>What I Can Do: {props.whatICanDo}</li>"}</span>
                   <br />
                   <span>{"<li>Interests: {props.interest}</li>"}</span>
                   <br />
