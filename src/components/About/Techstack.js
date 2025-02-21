@@ -9,7 +9,7 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiTypescript  } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -17,7 +17,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" title="React JS">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title="Javscript">
+      <Col xs={4} md={2} className="tech-icons" title="TypeScript">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="Node JS">

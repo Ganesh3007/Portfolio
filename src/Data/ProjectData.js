@@ -1,8 +1,22 @@
 import automation from "../../src/Assets/Projects/automation.png";
 import cadence from "../../src/Assets/Projects/cadence.png";
 import coverage from "../../src/Assets/Projects/coverage.png";
+import paymentAutomation from "../../src/Assets/paymentAutomation.jpg"
 
 export const experienceData = [
+  {
+    title: "Software Engineer",
+    subtitle: "Luxoft",
+    workType: "Full-time",
+    workDescription: [
+      "Developed a payment automation UI platform with greater user experience in the banking domain which is responsible for managing 6k to 7k business transactions per day on average with React, React Native, ,Typescript & Redux.",
+      "Introduced Apollo Client- GraphQL for effective data layer integration which significantly improved the application performance more than 30%.",
+      "Collaborated with cross-functional teams to attain on-time delivery with high accessibility of UI’s and maintained the components in reusable and modular patterns.",
+      "Led the team and implemented the POM based UI automation testing which helps reduce code duplication to achieve 100% code coverage." ,
+      "Influenced the members and mentored juniors in the JavaScript community through creative and consistent technical content."   
+    ],
+    dateText: "11/2022 – Present",
+  },
   {
     title: "Programmer Analyst",
     subtitle: "Gembrill Technologies India PrivateLimited",
@@ -15,7 +29,7 @@ export const experienceData = [
       "Have a good experience in unit testing with JEST to ensure the development quality and have an exposure in CI/CD with circleci that automates test, build and deploy.",
       "Used Agile Methodology for the software development life cycle. Experience in Version Control tools like GIT, Bit Bucket.",
     ],
-    dateText: "08/2020 – Present",
+    dateText: "08/2020 – 10/2022",
   },
   {
     title: " Associate Software Engineer",
@@ -44,10 +58,10 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    title: "CDD Platform",
+    title: "Banking- Payment Automation platform",
     description:
-      "Have created a configuration data driven platform to helps modern digital operations teams address business needs, increase service quality, reduce redundant activities. Simplify IT operations processes so that you can work on strategic initiatives. Respond to critical alerts with predefined remediation of problems as they occur and even can extract as a reports on defiened filters",
-    imgPath: automation,
+      "Developed a payment automation UI platform with greater user experience in the banking domain which is responsible for managing 6k to 7k business transactions per day on average",
+    imgPath: paymentAutomation,
   },
   {
     title: "Koncert Cadence",
@@ -60,5 +74,11 @@ export const projectsData = [
     description:
       "Coverage is an AI-driven solution that improves your target market coverage by monitoring your CRM and taking action based on events relevant to prospects. We do this by sending targeted 1-to-1 emails personalized based on events relevant to prospects who are selected based on ICP, Personas, and Rules of Engagement.",
     imgPath: coverage,
+  },
+  {
+    title: "CDD Platform",
+    description:
+      "Have created a configuration data driven platform to helps modern digital operations teams address business needs, increase service quality, reduce redundant activities. Simplify IT operations processes so that you can work on strategic initiatives. Respond to critical alerts with predefined remediation of problems as they occur and even can extract as a reports on defiened filters",
+    imgPath: automation,
   },
 ];

@@ -25,8 +25,7 @@ function Home2() {
                   detailed individual with ability to develop effective
                   solutions and deliver quality work.",
                   <br />
-                  <span className="purple">whatICanDo</span>: "Develop modern
-                  single page application",
+                  <span className="purple">whatICanDo</span>: "Develop rich & highly accessible user interfaces",
                   <br />
                   <span className="purple">interest</span>:"Interested in
                   Application development and Automation"
@@ -34,27 +33,27 @@ function Home2() {
                   <span> {"}"}</span>
                   <br />
                   <br />
-                  <span>{"const About = (props)=>{"}</span>
+                  <span>{"const Profile = (props)=>{"}</span>
                   <br />
-                  <span className="purple">return</span>(
+                  <span className="purple">{"return("}</span>
                   <br />
+                  <div style={{marginLeft:"20px"}}>
                   <span>{"<div>"}</span>,
                   <br />
-                  <span>{"<h3>Profile</h3>"}</span>
+                  <span style={{marginLeft:"20px"}}>{"<ul>"}</span>
                   <br />
-                  <span>{"<ul>"}</span>
+                  <span style={{marginLeft:"40px"}}>{"<li>Who I Am: {props.whoIAm}</li>"}</span>
                   <br />
-                  <span>{"<li>Who I Am: {props.whoIAm}</li>"}</span>
+                  <span style={{marginLeft:"40px"}}>{"<li>What I Can Do: {props.whatICanDo}</li>"}</span>
                   <br />
-                  <span>{"<li>What I Can Do: {props.whatICanDo}</li>"}</span>
+                  <span style={{marginLeft:"40px"}}>{"<li>Interests: {props.interest}</li>"}</span>
                   <br />
-                  <span>{"<li>Interests: {props.interest}</li>"}</span>
-                  <br />
-                  <span>{"</ul>"}</span>
+                  <span style={{marginLeft:"20px"}}>{"</ul>"}</span>
                   <br />
                   <span>{"</div>"}</span>,
                   <br />
-                  <span> {");"}</span>
+                  </div>
+                  <span className="purple"> {");"}</span>
                   <br />
                   <span>{"}"}</span>
                 </Container>
